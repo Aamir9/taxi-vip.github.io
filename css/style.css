@@ -1,0 +1,250 @@
+.navbar{
+	background-color:white!important;
+	
+}
+
+.navbar ul li a{
+	color: #caaa58!important;
+	margin-right:30px!important;
+	font-size: 20px;
+}
+.navbar ul li a:hover{
+	color:black!important;
+}
+
+.navbar img{
+	height:80px;
+	width:80px;
+	position: relative;
+	left:5%;
+
+}
+.navbar button{
+	  background-color:#caaa58!important;
+	  color: white!important; 
+}
+.bgimg{
+	background-image: url("../image/car1.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+}
+.headerset{
+	height:100vh;
+	position: relative;
+	background-color: rgb(0,0,0,0.5);
+	
+
+}
+.headerset h2{
+	font-size: 50px;
+	position:absolute;
+	top:18%;
+	left: 6%;
+
+}
+.headerset h5{
+	font-size:34px;
+	color: #caaa58!important;
+	margin-left:15%;
+	position:absolute;
+	top:30%;
+
+
+}
+.headerset h1{
+	font-size:100px;
+	font-weight: bold;
+	color: white!important;
+	margin-left:6%;
+	position:absolute;
+	top:36%;
+	left: 6%;
+}
+.headerset p{
+	color: #caaa58!important;
+	font-size: 24px;
+	position:absolute;
+	top:60%;
+	left: 6%;
+}
+.scrolling-box {
+  background-color:white;
+  display: block;
+  text-align: center;
+  width:100%;
+}
+/*========
+Ten Minute
+*/
+.ten-minute{
+	background-color:white;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.ten-minute h1{
+	font-size:80px;
+    font-weight: bold;
+	color: #caaa58!important;
+}
+.ten-minute h2{
+	font-size:40px;
+	color:black!important;
+}
+.ten-minute p{
+	font-size:20px;
+	
+}
+.ten-minute .col-lg-8{
+	border-bottom:2px solid  #caaa58;
+	margin-top: 30px;
+	
+}
+/*========
+End Ten Minute
+*/
+/*========
+section image background
+*/
+.section-bg1{
+	background-image: url("../image/section-bg1.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:50vh;
+}
+.section-bg1 .layer{
+	background-color: rgb(0,0,0,0.5);
+	width: 100%;
+	height:50vh;
+}
+/*========
+End section image background
+*/
+/*========
+services
+*/
+.comman-question{
+	padding-top:70px;
+	padding-bottom:70px;
+
+}
+.comman-question p{
+	font-size: 20px;
+	text-align: left;
+}
+.section-bg2{
+	background-image: url("../image/section-bg1.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:70vh;
+}
+.section-bg2 h1{
+	color:#caaa58;
+	font-size: 70px;
+}
+.section-bg2 h3{
+	color:white;
+	font-size:30px;
+}
+.section-bg2 p{
+	color:white;
+	font-size:20px;
+	margin-top:20px;
+}
+/*========
+ End services
+*/
+/*========
+ Prices page
+*/
+#price{
+	padding-top:60px;
+	padding-bottom:40px;
+}
+/*========
+ End Prices page
+*/
+.footer{
+	background-color:#000000!important;
+	height:80px;
+}
+.footer span{
+	position: relative;
+	font-size: 20px;
+	color: #caaa58;
+	top:32%;
+}
+/*Responsive*/
+@media screen and (max-width:1024px) {
+	#about h1{
+	font-size:45px!important;
+}
+	#about h3{
+	font-size:20px!important;
+}
+/*Service page*/
+.section-bg2 h1{
+	font-size:60px;
+}
+.section-bg2 h3{
+	font-size:30px;
+}
+.section-bg2 p{
+	font-size:18px;
+}
+/*End Service page*/
+}
+@media screen and (max-width:768px){
+	.navbar h1{
+	 
+	  margin-left:20px;
+}
+}
+@media screen and (max-width:414px){
+	
+.headerset h2{
+	font-size:30px;
+}
+.headerset h5{
+	font-size:28px;
+	margin-left:25%;
+}
+.headerset h1{
+	font-size:70px;
+	left:14%;
+}
+.headerset p{
+	font-size: 20px;
+	text-align: center;
+}
+.section-bg1{
+	height:90vh;
+}
+.section-bg1 .layer{
+	height:90vh;
+}
+.section-bg2{
+	height:100vh;
+	
+}
+.section-bg2 h1{
+	font-size:40px;
+}
+.section-bg2 h3{
+	color:white;
+	font-size:24px;
+}
+.section-bg2 p{
+	color:white;
+	font-size:18px;
+	margin-top:10px;
+}
+
+
+}
